@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('android-smart-image-view-1.0.0.jar'))

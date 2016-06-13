@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="10dp"
+    android:layout_marginTop="10dp">
+    <com.loopj.android.image.SmartImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img_bayar_logo"
+        android:src="@drawable/noimage"
+        android:layout_below="@+id/txt_detail_waktu"
+        android:scaleType="fitCenter" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="000-000-000-000"
+            android:id="@+id/txt_bayar_norek"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a/n. Nama Pemilik Rekening"
+            android:id="@+id/txt_bayar_namarek"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kantor Cabang"
+            android:id="@+id/txt_bayar_kantorrek"/>
+    </LinearLayout>
+</LinearLayout>

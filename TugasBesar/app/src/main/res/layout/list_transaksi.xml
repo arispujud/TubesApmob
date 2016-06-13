@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txt_transaksi_tgl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Subject"/>
+        <TextView
+            android:id="@+id/txt_transaksi_via"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pembayaran melalui "/>
+        <TextView
+            android:id="@+id/txt_transaksi_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Jumlah dibayarkan : Rp 0,-"/>
+    </LinearLayout>
+
+</LinearLayout>

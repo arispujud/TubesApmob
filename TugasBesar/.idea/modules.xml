@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TugasBesar.iml" filepath="$PROJECT_DIR$/TugasBesar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-async-http-1.4.9/android-async-http-1.4.9.iml" filepath="$PROJECT_DIR$/android-async-http-1.4.9/android-async-http-1.4.9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-smart-image-view-1.0.0/android-smart-image-view-1.0.0.iml" filepath="$PROJECT_DIR$/android-smart-image-view-1.0.0/android-smart-image-view-1.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.2.4/httpmime-4.2.4.iml" filepath="$PROJECT_DIR$/httpmime-4.2.4/httpmime-4.2.4.iml" />
+    </modules>
+  </component>
+</project>

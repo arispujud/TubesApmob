@@ -1,0 +1,1 @@
+include ':app', ':httpmime-4.2.4', ':android-smart-image-view-1.0.0', ':android-async-http-1.4.9'
